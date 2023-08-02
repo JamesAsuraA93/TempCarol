@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home(){
     return (
         <header className="bg-[#EDE7D7]" >
-            <nav class="navbar mx-auto flex max-w-full items-center justify-between p-2 ">
+            <nav className="navbar mx-auto flex max-w-full items-center justify-between p-2 ">
                     <div className='justify-center shrink-0 mx-2 space-x-4'>
                         <div className='flex-col'>
                             <p className="text-2xl font-serif text-center text-[#778773] flex-grow font-semibold " >CAROL</p>
