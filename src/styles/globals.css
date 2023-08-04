@@ -1,13 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 
 
-.plfa{
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  
+  
+
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
     font-family: 'Playfair Display', serif;
-}
+    color: #341f0fa2;
+    padding-left: 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: rgba(152, 154, 152, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  }
 
-.dm{
-    font-family: 'DM Serif Display', serif;
-}
-    
+  
+  .fixed-icon{
+    float: right;
+    z-index: -1;
+    flex-shrink: 0;
+    margin-top: 4px;
+    padding-left: 2px;
+    width :22px;
+    height : 22px;
+    cursor: pointer;
+    }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin-left: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #341F0F;
+    }
+  }
+
