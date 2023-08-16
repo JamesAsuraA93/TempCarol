@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer(){
     return (
-      <footer className="footer w-full flex-wrap" >
+      <footer className="footer w-full" >
           <div>
             <footer className="aboutus w-full">ABOUT US</footer>
               <div>
@@ -13,7 +13,7 @@ export default function Footer(){
                 </div>
 
               {/*Ig and Line */}
-              <div className='cursor-pointer float-right mr-4'>
+              <div className='cursor-pointer float-right mr-10'>
                   <div>
                     <div className='inline-flex'>
                       <div className=' p-1 bg-[#D9D9D9] rounded-full'>
