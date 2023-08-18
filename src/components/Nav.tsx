@@ -9,7 +9,7 @@ const Nav = () => {
     const [navbar, setNavbar] = useState(false);
     
     return (     
-        <header className="w-full fixed top-0 left-0 sticky z-50 " >
+        <header className="w-full fixed top-0 left-0 sticky z-50 drop-shadow-lg" >
             <nav className="md:flex md:items-center md:justify-between p-1.5 px-4 bg-[#EDE7D7] ">
                 <div>
                     <div className='flex justify-between items-center'>
@@ -19,7 +19,7 @@ const Nav = () => {
                             <p className="-mt-1.5 text-xs text-center font-serif text-[#778773] flex-grow font-normal ">RENTAL</p> 
                         </span>
                         {/*Search*/}
-                        <form className='max-w-[75%] min-w-[50%] relative ml-2'>
+                        <form className='max-w-[85%] min-w-[50%] relative ml-2'>
                             <div className='relative '>
                                 <input type="search" placeholder="Search..." className='w-full px-4 p-1 rounded-full bg-[#D9D6D1] shadow-inner font-serif text-sm'/>
                                 <button className='absolute right-0 -transalate-y-1/2 p-1.5 bg-[#C3C0BC] rounded-full ' /*icons */>

@@ -38,7 +38,7 @@
     justify-content: center;
     color: #FFF;
     font-family: "Playfair Display", serif;
-    font-size: 32px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -51,7 +51,7 @@
     justify-content: left;
     color: whitesmoke;
     font-family: "Playfair Display", serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -79,7 +79,7 @@
   .contact{
     font-family: "Playfair Display", serif;
     color: #341F0F;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -91,3 +91,8 @@
     color: darkred;
   }
 
+  .thaif{
+    font-family: 'K2D', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Sarabun', sans-serif;
+  }

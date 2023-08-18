@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { data } from '@/data';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
 
 
@@ -36,10 +34,6 @@ const Home = () => {
 
       {/*Hot item*/}
 
-      
-      {/*product*/}
-
-      
     
      
 
@@ -62,32 +56,15 @@ const Home = () => {
                     </div>   
                 </div>
             </div>
-            {/*Hot item*/}
-            <div className='px-10 py-8 bg-pink-200'>
-                <p className='text-4xl font-3xl font-serif text-[#BD5858] flex-grow'>Hot Item!</p> 
-                <>
-                    <div className='relative flex items-center w-[1000px] justify-center pt-4'>
-                        <div id="slide" className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide '>
-                            {data.map((item) => (
-                                <img
-                                    className='w-[250px] h-[300px] inline-block p-3 cursor-pointer hover:scale-105 ease-in-out duration-300 '
-                                    src={item.img}
-                                    alt='/'
-                                />
-                            ))}
-                        </div>
-                    </div>
-                </>
-
-            </div>
+            
            <div>
 
             {/*product*/}
             <div className="bg-#EDE7D7">
-                <div className="mx-auto max-w-2xl px-10 py-10 sm:px-6 sm:py-24 md:max-w-7xl md:px-10">
+                <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-24 md:max-w-7xl md:px-10">
                     <h2 className="text-4xl font-3xl tracking-tight font-serif text-[#BD5858] flex-grow">Products</h2>
 
-                    <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                    <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                     <div className="group relative">
                             <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                             <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." className="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
